@@ -16,7 +16,7 @@ app.use(cors({
 
 app.use('/userAuth',userRouter)
 app.use('/cloth',authMiddleware,clothRouter)
-app.use('/slider',authMiddleware,sliderRouter)
+app.use('/slider',sliderRouter)
 
 app.get('/',(req,res)=>{
     res.send("server is working fine")
