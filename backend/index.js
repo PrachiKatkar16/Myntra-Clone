@@ -6,7 +6,7 @@ const userRouter = require('./routes/user.route')
 const clothRouter=require('./routes/cloth.route')
 const sliderRouter=require('./routes/slider.route')
 require('dotenv').config();
-const PORT=process.env.PORT || 3000
+const PORT=process.env.PORT || 3005
 
 const app=express();
 app.use(express.json())
