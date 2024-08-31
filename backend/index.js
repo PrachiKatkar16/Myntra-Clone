@@ -15,7 +15,7 @@ app.use(cors({
 }))
 
 app.use('/userAuth',userRouter)
-app.use('/cloth',authMiddleware,clothRouter)
+app.use('/cloth',clothRouter)
 app.use('/slider',sliderRouter)
 
 app.get('/',(req,res)=>{
