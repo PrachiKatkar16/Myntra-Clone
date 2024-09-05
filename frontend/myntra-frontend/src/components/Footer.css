@@ -1,0 +1,93 @@
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content{
+    background-color: #fafbfc;
+    
+    width:1200px;
+    margin-left: 150px;
+    padding: 5px;
+}
+.footer-searches{
+    display: flex;
+    margin-left:210px;
+    margin-right: 210px;
+    margin-top: 20px;
+}
+.footer-container{
+    display: flex;
+    gap:40px
+}
+.footer-icon{
+  font-size: 1.5rem; 
+  margin-right: 12px; 
+  color: white;
+}
+.footer-heading{
+    font-weight: bold;
+}
+.footer-link:hover{
+    text-decoration: none;
+}
+.play-store-badge{
+    width:50%
+}
+.app-store-badge{
+    width: 140px;
+}
+/* .footer-badges{
+    display: flex;
+    /* gap: 10px; */
+    /* width: 400px; */
+ 
+.footer-bottom{
+    margin-left: 210px;
+    margin-right: 210px;
+    margin-top: 20px;
+}
+@media (max-width: 992px) {
+    .footer-container {
+      flex-direction: column;
+    }
+  
+    .footer-section {
+      width: 100%;
+    }
+  
+    .footer-bottom {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-bottom div {
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .footer-container {
+      padding: 0;
+    }
+  
+    .footer-bottom {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-bottom div {
+      margin-bottom: 10px;
+    }
+  
+    .footer-link {
+      margin-bottom: 8px;
+    }
+  .footer-icon{
+    background-color: #f9f9f9;
+  }
+    /* .footer-icons {
+      justify-content: center;
+    } */
+  }
